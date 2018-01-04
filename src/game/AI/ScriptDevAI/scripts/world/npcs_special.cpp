@@ -735,8 +735,10 @@ CreatureAI* GetAI_npc_garments_of_quests(Creature* pCreature)
 /*######
 ## npc_guardian
 ######*/
-
-#define SPELL_DEATHTOUCH                5
+enum
+{
+    SPELL_DEATHTOUCH = 5
+};
 
 struct npc_guardianAI : public ScriptedAI
 {
