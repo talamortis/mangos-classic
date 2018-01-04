@@ -127,5 +127,5 @@ void AddSC_boss_coldbringerAI()
     s = new Script;
     s->Name = "boss_coldbringer";
     s->GetAI = &GetAI_boss_coldbringer;
-    s->RegisterSelf(false);
+    s->RegisterSelf();
 }

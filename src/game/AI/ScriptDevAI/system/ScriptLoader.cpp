@@ -376,6 +376,7 @@ void AddScripts()
     AddSC_boss_zumrah();                                    // zulfarrak
     AddSC_zulfarrak();
     AddSC_instance_zulfarrak();
+    AddSC_boss_coldbringerAI();
 
     AddSC_ashenvale();
     AddSC_azshara();
@@ -398,7 +399,6 @@ void AddScripts()
     AddSC_thunder_bluff();
     AddSC_ungoro_crater();
     AddSC_winterspring();
-    AddSC_boss_coldbringerAI();
 
     // northrend
     // removed
